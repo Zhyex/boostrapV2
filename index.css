@@ -1,0 +1,47 @@
+*{
+
+}
+html{
+
+}
+header{
+
+}
+main{
+
+}
+footer{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center; 
+    /* align-items-center py-3 my-4 border-top;  */
+    color: cornflowerblue;
+}
+.container{
+    display: grid;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+.container p{
+
+}
+.container .centerText{
+    grid-column: 5;
+}
+.container .nav{
+    grid-column: 9;
+}
+.container .nav .item{
+    margin: 5px;
+}
+img{
+    color: cornflowerblue;
+}
+
+/* #centerText{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+} */
