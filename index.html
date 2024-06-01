@@ -8,9 +8,8 @@
     <link rel="stylesheet" href="index.css">
   </head>
   <body>
-    <div class="container justify-content-center">
-        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom headNav">
-            <a class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none" href="#">
+    <div class="container">
+<!--             <a class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none" href="#">
                 <img id="logoText" src="/icons/consola-de-juego.png" alt="logo">
                 <p>Gamergy Rev</p>
             </a>
@@ -27,12 +26,69 @@
                 <li class="nav-item">
                     <a href="" class="nav-link textHyperlinks">Guías</a>
                 </li>
-            </ul>
-        </header>
+            </ul> -->
+
+            <nav class="navbar fixed-top bg-body-tertiary " style="background-color: #e3f2fd;">
+                <div class="container">
+                  <a class="navbar-brand" href="#">
+                    <img src="/icons/consola-de-juego.png" alt="logoBrand" width="80" height="80">
+                    <span>Gamergy Rev</span>
+                  </a>
+                  <ul class="nav nav-pills">
+                    <li class="nav-item">
+                      <a class="nav-link textHyperlinks" href="#">Noticias</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link textHyperlinks" href="#">Contacto</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle textHyperlinks" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Más
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item textHyperlinks" href="#">Guías</a></li>
+                        <li><a class="dropdown-item textHyperlinks" href="#">Análisis</a></li>
+                        <li><a class="dropdown-item textHyperlinks" href="#">Reportajes</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>   
+                </div>
+                
+            </nav>
     </div>
     <div class="container">
         <div class="imgMain">
             <img src="/images/test-disc-810x455.webp" alt="imagen test">
+        </div>
+        <div class="cardContainer">
+            <div class="card">
+                <img src="/images/test-disc-810x455.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/images/test-disc-810x455.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/images/test-disc-810x455.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
         </div>
     </div>
     <div class="container">

@@ -68,7 +68,7 @@ img{
     background-color: cornflowerblue;
 }
 .textHyperlinks,p{
-    color: white;
+    color: cornflowerblue;
     text-decoration: none;
 }
 #logoText{
@@ -79,11 +79,25 @@ img{
 }
 .imgMain{
     display: flex;
+    margin: auto;
     justify-content: center;
     align-items: center;
 /*     margin-top: 10px;
     margin-bottom: 10px; */
+    padding: 10%;
+}
+.imgMain img{
+    border-radius: 5px;
 }
 .item{
     margin: 5px;
+}
+.cardContainer{
+    display: flex;
+    margin: auto;
+    gap: 10px;
+}
+.card{
+    display: flex;
+    width: auto;
 }
