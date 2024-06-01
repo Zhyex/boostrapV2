@@ -1,10 +1,25 @@
-*{
+/* *{
 
 }
 html{
 
 }
+.containerHeader{
+    /display: block; 
+}
 header{
+    display: flex;
+    flex-direction: row;
+}
+.logoText{
+    display: flex;
+}
+
+.containerHeader .navHeader{
+    grid-column: 5;
+    flex-direction: row;
+}
+.navItem{
 
 }
 main{
@@ -16,32 +31,47 @@ footer{
     flex-direction: column;
     justify-content: space-between;
     align-items:center; 
-    /* align-items-center py-3 my-4 border-top;  */
     color: cornflowerblue;
 }
 .container{
     display: grid;
     flex-direction: row;
-    /* justify-content: space-between; */
+     justify-content: space-between; 
 }
 .container p{
 
 }
+
 .container .centerText{
     grid-column: 5;
 }
 .container .nav{
     grid-column: 9;
 }
-.container .nav .item{
-    margin: 5px;
+.container .nav {
+
 }
 img{
     color: cornflowerblue;
 }
 
-/* #centerText{
+ #centerText{
     align-items: center;
     display: flex;
     flex-direction: column;
 } */
+
+#logoText{
+    height: 80px;
+    width: 80px;
+}
+.imgMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.item{
+    margin: 5px;
+}
