@@ -64,6 +64,10 @@ img{
     box-sizing: border-box;
     
 }
+h2{
+    text-align: center;
+    margin-bottom: 5%;
+}
 .headNav{
     background-color: cornflowerblue;
 }
@@ -99,6 +103,36 @@ img{
 .imgMain img{
     border-radius: 5px;
 }
+.container .imgPrincipal{
+    background:url('/images/gragonage.webp');
+    background-size: 100%;
+    width: 100%;
+    padding-top: 56%;
+    position: relative;
+    /* border-radius: 3%; */
+    margin-bottom: 10px;
+}
+.redirect{
+    width: 100%;
+    height: 30%;
+    background-color: rgba(0, 0, 0,0.5);
+    position: absolute;
+    bottom: 0px;
+}
+.redirect h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 10px;
+}
+.redirect p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 20px;
+}
 .item{
     margin: 5px;
 }
@@ -110,4 +144,85 @@ img{
 .card{
     display: flex;
     width: auto;
+}
+.card-body{
+    
+}
+.card-title{
+    text-align: center;
+}
+.card-img-top{
+    height: 270px;
+}
+/* #f1{
+    width: 350px;
+} */
+.card-text{
+    color: black;
+}
+.btnCard{
+    display: block;
+    margin: auto;
+    background-color: blueviolet;
+    color: white;
+    border: solid blueviolet;
+    width: 50%;
+}
+.btnCard:hover{
+    background-color: white;
+    color: blueviolet;
+    border: solid blueviolet;
+}
+.spacing{
+    margin-top: 20px;
+}
+.colorNovedades{
+    color: black;
+}
+.novedadesImg{
+    width: 100%;
+    height: 350px;
+}
+/* @media screen and (max-width:990px){
+    .imgMain img{
+        width: 724px;
+        margin-top: 78px;
+    }    
+}
+@media screen and (max-width:900px){
+    .imgMain img{
+        width: 724px;
+        margin-top: 78px;
+    }    
+}
+@media screen and (max-width:770px){
+    .imgMain img{
+        width: 535px;
+        margin-top: 98px;
+    }    
+} */
+/* .container footer{
+    background-color: cornflowerblue;
+    color: white;
+} */
+@media screen and (max-width:990px){
+    .container .imgPrincipal{
+        flex-direction: column;
+        flex-wrap: wrap;
+        width:auto;
+    }  
+}
+@media screen and (max-width:900px){
+    .container .imgPrincipal{
+        flex-direction: column;
+        flex-wrap: wrap;
+        width:auto;
+    }  
+}
+@media screen and (max-width:770px){
+    .container .imgPrincipal{
+        flex-direction: column;
+        flex-wrap: wrap;
+        width:auto;
+    } 
 }
