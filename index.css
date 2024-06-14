@@ -68,7 +68,7 @@ img{
     background-color: cornflowerblue;
 }
 .textHyperlinks,p{
-    color: cornflowerblue;
+    color: white;
     text-decoration: none;
 }
 #logoText{
@@ -76,6 +76,16 @@ img{
     width: 80px;
     margin-left: 10px;
     margin-right: 10px;
+}
+.btnColor{
+    background-color: blueviolet;
+    color: white;
+    border: solid blueviolet;
+}
+.btnColor:hover{
+    background-color: white;
+    color: blueviolet;
+    border: solid white;
 }
 .imgMain{
     display: flex;
