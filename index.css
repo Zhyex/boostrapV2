@@ -105,7 +105,7 @@ h2{
 }
 .container .imgPrincipal{
     /* background:url('../images/gragonage.webp'); */
-    background:src('../images/gragonage.webp');
+    background:src('./images/gragonage.webp');
     background-size: 100%;
     width: 100%;
     padding-top: 56%;
