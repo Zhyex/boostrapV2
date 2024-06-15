@@ -205,11 +205,21 @@ h2{
     background-color: cornflowerblue;
     color: white;
 } */
+.formStyle h2{
+    margin-top: 9%;
+}
+textarea{
+    resize:both;
+}
+
 @media screen and (max-width:990px){
     .container .imgPrincipal{
         flex-direction: column;
         flex-wrap: wrap;
         width:auto;
+    }
+    .formStyle h2{
+        margin-top: 20%;
     }  
 }
 @media screen and (max-width:900px){
@@ -217,12 +227,18 @@ h2{
         flex-direction: column;
         flex-wrap: wrap;
         width:auto;
-    }  
+    }
+    .formStyle h2{
+        margin-top: 20%;
+    }    
 }
 @media screen and (max-width:770px){
     .container .imgPrincipal{
         flex-direction: column;
         flex-wrap: wrap;
         width:auto;
-    } 
+    }
+    .formStyle h2{
+        margin-top: 25%;
+    }  
 }
