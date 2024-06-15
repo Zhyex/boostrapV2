@@ -39,7 +39,7 @@
                       <a class="nav-link textHyperlinks" href="#">Noticias</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link textHyperlinks" href="/contacto.html">Contacto</a>
+                      <a class="nav-link textHyperlinks" href="#">Contacto</a>
                     </li>
                     <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle textHyperlinks" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -134,6 +134,41 @@
               <button class="btn btn-primary btn-lg" style="    background-color: blueviolet;color: white;border: solid blueviolet;" type="button">Suscribirse</button>
             </div>
           </div>
+    </div>
+    <div class="container formStyle">
+        <br>
+        <h2>Póngase en contacto con nosotros</h2>
+        <form>
+            <div class="mb-3">
+                <label for="lname" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="lname" placeholder="Con un nombre y apellido nos basta ;)" maxlength="40" required>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Correo Electrónico</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+              <div class="invalid-feedback">
+                Ingrese un correo electrónico válido.
+              </div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Cómo se entero de nosotros</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Seleccione una opción</option>
+                    <option value="1">Redes sociales</option>
+                    <option value="2">Amigo, conocido</option>
+                    <option value="3">Anuncios</option>
+                </select>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Deje sus comentarios</label><br>        
+              <textarea rows="5" cols="100"></textarea>
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Autorizas tratamiento de datos personales</label>
+            </div>
+            <button type="submit" class="btn btn-primary" style="    background-color: blueviolet;color: white;border: solid blueviolet;">Enviar</button>
+          </form>
     </div>
     <div class="container">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
